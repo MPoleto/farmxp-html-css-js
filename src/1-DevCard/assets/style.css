@@ -1,0 +1,61 @@
+body {
+    background-color: #ddd;
+}
+
+#page {
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.card{
+    width: 400px;
+    height: 580px;
+    border-radius: 5%;
+    background-color: #191b1b;
+    border: 2px outset #394648;
+}
+
+.picture {
+    height: 200px;
+    margin: 30px 120px 10px 120px;
+    border-radius: 5%;
+    border: 1px solid #a2d2d8;
+}
+
+.info {
+    margin: 20px;
+    padding: 0px 25px 15px 25px;
+    border-radius: 5%;
+    background-color: #beeef4;
+    border: 1.5px solid #a2d2d8;
+}
+
+.name p {
+    padding: 0px 30px 12px 30px;
+}
+
+.code p, .contact p {
+    font-style: italic;
+    font-size: 0.9em;
+ }
+
+.techs {
+    height: 45px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; 
+}
+
+.icontact {
+    height: 40px;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+a {text-decoration: none;}
+

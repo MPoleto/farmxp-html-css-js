@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon_face.ico">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Contadores</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <div class="wrapper">
+        <h5> 1º Contador simples</h5>
+        <div id="counter">
+            <button id="subtract">-</button>
+            <span id="current-number">0</span>
+            <button id="sum">+</button>
+        </div>   
+    </div>
+    <div class="wrapper">
+        <h5> 2º Contador de 0 a 10</h5>
+        <div id="counter">
+            <button name="until-0" onclick="decrease()">-</button>
+            <span id="restricted-number">0</span>
+            <button name="until-10" onclick="increase()">+</button>
+        </div>   
+    </div>
+    <div class="wrapper">
+        <h5> 3º Contador com número colorido</h5>
+        <div id="counter">
+            <button name="red" onclick="less()">-</button>
+            <span id="color-number">0</span>
+            <button name="blue" onclick="more()">+</button>
+        </div>   
+    </div>
+    
+    <script src="./assets/scripts.js"></script>
+</body>
+</html>

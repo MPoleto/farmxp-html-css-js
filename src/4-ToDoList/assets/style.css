@@ -1,0 +1,55 @@
+body {
+  margin: auto;
+  padding: 15px;
+  background-color: rgb(63, 63, 73);
+  font-family:'Courier New', Courier, monospace;
+}
+
+#wrapper {
+  margin: 30px;
+  font-size: 1.2vw;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+  color:rgb(253, 253, 253);
+  display: block;
+}
+
+#new-item {
+  font-size: 1.3vw;
+  font-family: serif;
+  letter-spacing: 0.1em;
+  width: 10%;
+  padding: 0.2em 1em;
+  background-color: transparent;
+  color:rgb(253, 253, 253);
+  border: none;
+  border-bottom: 1px solid darkseagreen;
+  outline: none;
+  transition: width 0.4s ease-in-out;
+}
+
+#new-item:focus {
+  width: 40%;
+  background-color: rgb(73, 73, 83);
+}
+
+#add {
+  border: none;
+  background-color: darkseagreen;
+  border-radius: 5vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.05em;
+  padding: 0.4vw 0.8vw;
+  font-family: serif;
+}
+
+#add:hover {
+  background-color: rgb(10, 10, 10);
+  color: darkseagreen;
+  cursor: pointer;
+}
+
+.checkbox-item:checked + label {
+  text-decoration: line-through;
+  color: rgb(111, 111, 123);
+}

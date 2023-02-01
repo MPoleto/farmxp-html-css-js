@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#title {
+    max-height: 290px;
+    background-image: url('./img/cinema1.jpg');
+    background-position-y: 37%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.flex{
+    display: inline-flex;
+}
+.poster {
+    height: 250px;
+    margin: 15px 0px 15px 30px;
+    border: 1px solid rgb(146, 146, 146);
+}
+
+h1 {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    color: white;
+    text-shadow:1px 0 rgb(155, 16, 16),0 1px rgb(155, 16, 16),-1px 0 rgb(155, 16, 16),0 -1px rgb(155, 16, 16);
+    align-self: flex-end;
+}
+
+.post{ 
+    max-width: 900px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 15px;
+    border: 2px dotted grey;
+    border-radius: 1%;
+}
+
+.post_image {
+    width: 87%;
+    margin: 10px 40px 0px 40px;
+    padding: 15px;
+}
+
+.post_content {
+    margin: 25px;
+    padding-bottom: 15px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.list {
+    padding-right: 15px;
+    list-style-type:circle;
+}
+
+.list li {
+    font-size: 17px;
+    margin-left: 7px;
+    padding: 7px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h4 {
+    
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(155, 16, 16);
+}
+
+.references {
+    padding-top: 5px;
+}
+
+footer {
+    height: 120px;
+    background-image: url('./img/cinema2.jpg');
+    background-position-y: 9%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#trailer:link, #trailer:visited {
+    background-color: rgb(155, 16, 16);
+    color: white;
+    margin-left: 25px;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  #trailer:hover { background-color: rgb(96, 9, 9); }
