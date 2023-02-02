@@ -9,13 +9,13 @@ Criei este repositório para adicionar os projetos que faço para praticar HTML,
 
 #### HTML, CSS e JavaScript
 3. Contador
-4. To-do List
-11. Light/Dark Mode (manipulação do DOM)
+4. Lista de afazeres (To-do List)
+5. Light/Dark Mode (manipulação do DOM)
 
 #### JavaScript
-5. Calculadora
-6. Comparar números (operadores)
-7. Verificar palíndromo e substituir números pares (varáveis e tipos)
-8. Funções
-9. Verificar tamanho do array (tratamento de erros)
-10. Conta bancária (orientação a objetos)
+6. Calculadora
+7. Comparar números (operadores)
+8. Verificar palíndromo e substituir números pares (varáveis e tipos)
+9. Funções
+10. Verificar tamanho do array (tratamento de erros)
+11. Conta bancária (orientação a objetos)
