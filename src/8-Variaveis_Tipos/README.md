@@ -1,5 +1,5 @@
-## Variáveis e tipos
----------------------
+# Variáveis e tipos
+
 Exercício proposto no curso "Variáveis e tipos" ministrado pela Stephany Nusch no site da DIO.  
 Linguagem JavaScript.  
 <br />

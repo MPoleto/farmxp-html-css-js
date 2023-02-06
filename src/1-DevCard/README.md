@@ -1,5 +1,4 @@
-## 👩🏽‍💻 Carteirinha Dev
-----------------------
+# 👩🏽‍💻 Carteirinha Dev
 
 Com o intuito de praticar HTML e CSS fiz este exercício que propõe criar um cartão de dev.
 

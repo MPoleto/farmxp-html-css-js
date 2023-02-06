@@ -1,5 +1,5 @@
-## Site do filme "The Imitation Game"
-----------------------------------
+# Site do filme "The Imitation Game"
+
 Fiz esta página seguindo como base a sugestão de exercício do curso "Introdução a criação de websites com HTML5 e CSS3", ministrado pelo Lucas Vialboim no site da DIO, para por em prática o que foi apresentado no curso mais o que aprendi estudando pelo site w3schools.
 
 O exercício era criar um site usando:

@@ -1,6 +1,6 @@
 function exerciseOperators (number1, number2) {
     try{
-        if((number1 == null) || (number2 == null)) throw 'vazio. Adicione o(s) número(s).';
+        if((number1 == null) || (number2 == null)) throw 'nulo. Adicione o(s) número(s).';
         if((number1 === '') || (number2 === '')) throw 'vazio. Forneça o(s) número(s).';
         if(isNaN(number1) || isNaN(number2)) throw 'não é número.';
         
@@ -39,8 +39,8 @@ function compareSum (number1, number2) {
         compare10 = 'maior que';
 
         if (result < 20) { compare20 = 'menor que'; } 
-        if (result > 20) { compare20 = 'maior que'; } 
-        if (result === 20) { compare20 = 'igual a'; }
+        else if (result > 20) { compare20 = 'maior que'; } 
+        else if (result === 20) { compare20 = 'igual a'; }
 
     }
     return `Sua soma é ${result}, que é ${compare10} 10 e ${compare20} 20.`;    

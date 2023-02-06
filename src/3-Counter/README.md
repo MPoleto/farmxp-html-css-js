@@ -1,8 +1,6 @@
-## 🔷 Contador
---------------------------------------------------------------------------
+# 🔷 Contador
 
-
-Primeiro projeto de criação de uma página HTML com CSS e JavaScript, sugestão da Stephany Nusch no curso "Introdução a JavaScript" da DIO.
+Primeiro projeto de criação de uma página HTML com CSS e JavaScript, sugestão da Stephany Nusch no curso *Introdução a JavaScript* da DIO.
 
 <br>
 

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  height: 100vh;
+  background-color: #ccc;
+  border: 20px outset rgb(10, 10, 44);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  margin: 10vh 5vw 0;
+}
+
+#form {
+  width: 80%;
+  text-align: center;
+  margin: 22vh auto 1vh;
+}
+
+label {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+input, button {
+  border-radius: 0;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  width: 10rem;
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  border: 2px outset midnightblue;
+}
+
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+  background-color: #fff;
+  border:none;
+  cursor: pointer;
+}
+
+button::before {
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  width: 0%;
+  height: 100%; 
+  transition: 0.4s ease-out;
+}
+
+button:hover::before {
+  width: 100%;
+  color: #fff;
+  background-color: rgb(10, 10, 44);
+}
+
+button span {
+  position: relative;
+  display: inline-block;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  padding: 0.3rem 0.8rem;
+  border: 2px outset midnightblue;
+  transition: 0.4s;
+}
+
+span:hover {
+  color: rgb(255,255,255);
+  border: 2px outset rgb(10, 10, 44);
+  transition: 0.2s 0.1s;
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+#result {
+  width: 70%;
+  margin: 4rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+  color: midnightblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
