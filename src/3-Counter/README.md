@@ -8,9 +8,7 @@ Primeiro projeto de criação de uma página HTML com CSS e JavaScript, sugestã
 
 <br>
 
-✔ Os eventos do 1º contador foram implementados usando o método `addEventListener`.
-
-✔ O evento `onclick` dos outros contadores foram adicionados diretamente na tag `<button>`.
+✔ As funções de acrescentar e subtrair do 1º contador são chamadas usando o método `addEventListener`. Enquanto que, as funções dos outros contadores foram chamadas na tag `<button>` por meio do atributo `onclick`.
 
 ✔ O 2º contador possui uma restrição de contar apenas entre o intervalo de 0 a 10.
 
