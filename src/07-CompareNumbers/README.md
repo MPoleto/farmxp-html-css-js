@@ -2,6 +2,8 @@
 
 Atividade prática do curso *Sintaxe e Operadores* ministrado pela Stephany Nusch no site da DIO.
 
+> URL: [Compare Numbers](https://mpoleto.github.io/farmxp-html-css-js/src/07-CompareNumbers/index.html)
+
 ## Atividade:
 
 - Criar uma função que recebe dois números como parâmetros.

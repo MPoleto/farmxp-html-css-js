@@ -2,6 +2,8 @@
 
 Primeiro projeto de criação de uma página HTML com CSS e JavaScript, sugestão da Stephany Nusch no curso *Introdução a JavaScript* da DIO.
 
+> URL: [Counter](https://mpoleto.github.io/farmxp-html-css-js/src/03-Counter/index.html)
+
 <br>
 
 🔹 A ideia foi criar três contadores com diferentes condições:

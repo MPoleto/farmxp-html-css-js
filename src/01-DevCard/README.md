@@ -2,6 +2,8 @@
 
 Com o intuito de praticar HTML e CSS fiz este exercício que propõe criar um cartão de dev.
 
+> URL: [Dev Card](https://mpoleto.github.io/farmxp-html-css-js/src/01-DevCard/index.html)
+
 O cartão dev consiste em:
 - Adicionar uma foto minha.
 - Mostrar algumas das linguagens que venho estudando da área de tecnologia.

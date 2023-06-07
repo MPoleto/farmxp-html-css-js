@@ -1,5 +1,7 @@
 # Calculadora
 
+> URL: [Calculator](https://mpoleto.github.io/farmxp-html-css-js/src/06-Calculator/index.html)
+
 Exercício do curso *Sintaxe básica em JavaScript* ministrado pela Diana Martine no site da DIO. No qual foi criado uma calculadora em javascript utilizando os seguintes métodos:  
 <br />
 

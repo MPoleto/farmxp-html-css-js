@@ -2,6 +2,8 @@
 
 Fiz esta página seguindo como base a sugestão de exercício do curso "Introdução a criação de websites com HTML5 e CSS3", ministrado pelo Lucas Vialboim no site da DIO, para por em prática o que foi apresentado no curso mais o que aprendi estudando pelo site w3schools.
 
+> URL: [The Imitation Game](https://mpoleto.github.io/farmxp-html-css-js/src/02-TheImitationGame/index.html)
+
 O exercício era criar um site usando:
 - A estrutura básica de um HTML.
 - As tags header, section, article e footer.
