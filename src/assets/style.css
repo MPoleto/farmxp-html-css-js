@@ -28,18 +28,19 @@ h1 {
 .projects-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  width: 30%;
-  max-width: 1000px;
-  margin: 10px auto 35px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-height: 92vh;
+  margin: 2vh auto 5vh;
 }
 
 .project {
   position: relative;
   display: inline-block;
-  min-width: 220px;
-  width: auto;
+  min-width: 370px;
+  width: 33%;
   height: auto;
   margin: 0 25px 15px;
   padding: 12px;

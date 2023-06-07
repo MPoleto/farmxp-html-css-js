@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem auto;
+  width: 90%;
+  height: 94%;
+  text-align: center;
+  background-color: rgb(159, 197, 172);
+}
+
+canvas {
+  border: 3px solid black;
+}
+
+h1 {
+  margin: 4rem auto;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: rgb(34, 33, 33);
+}
